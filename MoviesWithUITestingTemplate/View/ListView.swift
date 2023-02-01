@@ -42,6 +42,7 @@ struct ListView: View {
                     })
                 }
             }
+            .accessibilityIdentifier("movieList")
     //             barre de recherche
                 .searchable(text: $searchText, placement:  .navigationBarDrawer(displayMode: .always),
                     prompt: "Titre de film")

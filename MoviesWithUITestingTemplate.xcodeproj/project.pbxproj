@@ -21,7 +21,12 @@
 		751CCC1E2982EFEC001EB043 /* AddMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC1D2982EFEC001EB043 /* AddMovie.swift */; };
 		751CCC242982F849001EB043 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC232982F849001EB043 /* User.swift */; };
 		751CCC262982F87C001EB043 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC252982F87C001EB043 /* Profile.swift */; };
+		A10FC0DA298A656800937A86 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC132982ECA7001EB043 /* Movie.swift */; };
+		A137C569298AB6E900437C14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC232982F849001EB043 /* User.swift */; };
+		A137C56A298AB6EA00437C14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC232982F849001EB043 /* User.swift */; };
 		A1598EB729896D6C00CFBE8B /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC152982ECDF001EB043 /* MoviesViewModel.swift */; };
+		A1D34213298A9FF100D1B3BE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC132982ECA7001EB043 /* Movie.swift */; };
+		A1D34214298A9FF500D1B3BE /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CCC152982ECDF001EB043 /* MoviesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -321,6 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A137C56A298AB6EA00437C14 /* User.swift in Sources */,
+				A1D34213298A9FF100D1B3BE /* Movie.swift in Sources */,
+				A1D34214298A9FF500D1B3BE /* MoviesViewModel.swift in Sources */,
 				751CCBF82982EC02001EB043 /* MoviesWithUITestingTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +339,8 @@
 			files = (
 				751CCC042982EC02001EB043 /* MoviesWithUITestingTemplateUITestsLaunchTests.swift in Sources */,
 				A1598EB729896D6C00CFBE8B /* MoviesViewModel.swift in Sources */,
+				A10FC0DA298A656800937A86 /* Movie.swift in Sources */,
+				A137C569298AB6E900437C14 /* User.swift in Sources */,
 				751CCC022982EC02001EB043 /* MoviesWithUITestingTemplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

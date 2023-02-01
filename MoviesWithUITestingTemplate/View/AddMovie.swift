@@ -21,6 +21,7 @@ struct AddMovie: View {
     
     // var Binding pour pouvoir enregistrer le nouveau film dans la liste de l'écran parent (lié à une var State dans la vue Liste)
     @Binding var movies: [Movie]
+    @EnvironmentObject var vm: MoviesData
     
     var body: some View {
         NavigationView {
@@ -54,7 +55,8 @@ struct AddMovie: View {
             // Bouton sauvegarder le nouveau film dans la liste qui appel la fonction AddMovie() et appel la function dismiss() pour fermer l'écran modal une fois le film sauvegardé
                 VStack(alignment: .center) {
                     Button(action: {
-                        AddMovie()
+//                        AddMovie()
+                        vm.AddMovie(title: title, director: director, pitch: pitch, year: Int(year) ?? 1910, genre: selectedGenre)
                         presentationMode.wrappedValue.dismiss()
                     }, label: {
                         Text("Sauvegarder")

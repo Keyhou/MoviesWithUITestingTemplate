@@ -15,6 +15,8 @@ struct DetailView: View {
                 .font(.title)
                 .fontWeight(.heavy)
                 .padding()
+                .accessibilityIdentifier("movieTitle")
+            
             Text("by \(movie.director.capitalized)")
                 .font(.custom("Chalkduster", size: 18))
                 .font(.title3)
